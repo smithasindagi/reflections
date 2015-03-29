@@ -1,4 +1,7 @@
-When would you want to create a repository rather than keeping all your work local ?
+1. When would you want to create a repository rather than keeping all your work local ?
 
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
