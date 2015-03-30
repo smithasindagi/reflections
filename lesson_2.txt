@@ -1,1 +1,49 @@
 How can you use the staging area to make sure you have one commit per logical change?
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was easier to find the bug because the bug was introduced by a change, 
+    so looking at only the changes makes it faster
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I do not know that
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros are that you would commmit a file only after having tested it, 
+    versus an automatic commit which can happen while the file is in an incomplete state. 
+    The cons are that you may forget to commit during a long period of time, 
+    and then you could lose the changes if a disk crash occurred. Or you may 
+    lose some of the history if you underwent several iterations of changes 
+    without committing. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git would allow several commits because in many cases you need to modify 
+    several files at once to make the program work. By committing the multiple files 
+    at once, you ensure consistency in the program; additionally , you can provide
+    a single commit comment to the several file changes which logically go together
+
+   Google Docs treats files individually because documents are generally self-containing 
+   and do not require another document to be updated to give a consistent view of the work.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log is used to list all the changes in the repository, or on a file
+    git diff is used to show the changes on a file between two commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Having version control allows you to undo changes if those were found harmful
+    later on
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'll use Git for tracking files in other Udacity lessons, and probably any tutorial or personal project I'm undertaking
